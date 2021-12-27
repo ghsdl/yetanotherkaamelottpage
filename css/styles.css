@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Folkard;
+  src: url('../font/FOLKARD.ttf');
+}
+
+/* general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  vertical-align: baseline;
+}
+
+/* header styles */
+
+.header {
+  background-color: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header > nav > h1 {
+  float: left;
+  padding: 20px 0px 0px 20px;
+}
+
+.header > nav > h1 > a {
+  font-family: Folkard;
+  color: #E4D5C3;
+}
+
+.header > nav > ul {
+  float: right;
+  list-style: none;
+}
+
+.header > nav > ul > li {
+  float : left;
+}
+
+.header > nav > ul > li > a {
+  padding: 20px 20px 20px 20px;
+  color: #CE6933;
+  display: block;
+}
+
+.header > nav > ul > li:hover {
+  background-color: #E4D5C3;
+}
+
+.active {
+  background-color: #E4D5C3;
+}

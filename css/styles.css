@@ -13,15 +13,21 @@
 
 html, body {
   font-family: 'Ubuntu', sans-serif;
+  color: #555;
 }
 
 a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.9em;
+  line-height: 1.5;
+}
+
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20px;
   border-radius: 25px;
   background-color: #E4D5C3;
   color: #333;
@@ -29,13 +35,24 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  font-family: Folkard;
+  /* font-family: Folkard; */
 }
 
 .btn:hover {
   background-color: #8B8B55; 
   color: #E4D5C3;
   transition: ease-in-out 0.2s;
+}
+
+.btn-reverse {
+  background-color: #333;
+  color: #E4D5C3 ;
+}
+
+.container {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
 }
 
 /* header styles */
@@ -48,11 +65,12 @@ a {
 
 .header > nav > h1 {
   float: left;
-  padding: 20px 0px 0px 20px;
+  padding: 20px 0px 0px 50px;
 }
 
 .header > nav > h1 > a {
   font-family: Folkard;
+  font-size: 32px;
   color: #E4D5C3;
 }
 
@@ -81,31 +99,94 @@ a {
   color: #333 !important;
 }
 
-/* kafe styles */
+/* main styles */
 
 .main {
-  position: relative;
-  height: calc(100vh - 67px);
+  height: 100vh;
   background: url(../img/background.jpg);
   background-size: cover;
-  text-align: center;
 }
 
 .content {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  border: 5px solid #E4D5C3;
-  width: 350px;
+  max-width: 450px;
+  padding-top: 450px;
   display: block;
-  padding: 20px;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  margin: auto auto auto auto;
+  text-align: center;
 }
 
 .content > h2 {
-  color: #E4D5C3;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #8B8B55;
+}
+
+.content > p {
+  color: white;
   font-size: 18px;
   margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #8B8B55;
+}
+
+.fa-chevron-down {
+  font-size: 40px;
+  color: #E4D5C3;
+  margin: auto auto auto auto;
+  text-align: center;
+  padding: 35px 0px 10px 0px;
+}
+
+/* infos styles */
+
+.infos {
+  overflow: auto;
+  padding: 80px 0px 80px 0px;
+  text-align: center;
+}
+
+.element {
+  width: 50%;
+  float: left;
+}
+
+.element > p, i {
+  padding: 10px 0px 10px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+i {
+  color: #8B8B55;
+}
+
+/* reservation section */
+
+.restaurant {
+  height: 350px;
+  background: url(../img/table.jpg) center center;
+  background-size: cover;
+}
+
+.booking {
+  padding: 80px 0px 80px 0px;
+  text-align: center;
+}
+
+.container > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* footer styles */
+
+footer {
+  background-color: #333;
+  color: #E4D5C3;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
 }

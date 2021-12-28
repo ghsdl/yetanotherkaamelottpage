@@ -35,7 +35,6 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  /* font-family: Folkard; */
 }
 
 .btn:hover {
@@ -51,8 +50,13 @@ p {
 
 .container {
   display: block;
-  max-width: 1000px;
-  margin: 0 auto 0 auto;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: #8B8B55 solid 1px;
 }
 
 /* header styles */
@@ -177,9 +181,41 @@ i {
   text-align: center;
 }
 
-.container > p {
+.container-booking {
+  max-width: 600px;
+  display: block;
+  margin: auto auto auto auto;
+  text-align: center;
+}
+
+.container-booking > p {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* where styles */
+
+.where {
+  padding: 180px 0px 80px 0px;
+  overflow: auto;
+  min-height: calc(100vh - 130px);
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+  border-radius: 15px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+  margin: 20px 0px 0px 0px;
+}
+
+.where-icon {
+  padding: 0px 20px 0px 0px;
+  color: #E4D5C3;
 }
 
 /* footer styles */

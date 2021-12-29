@@ -1,0 +1,108 @@
+/* header styles */
+
+.header > nav > h1 {
+  float: none;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.header > nav > ul {
+  float: none;
+}
+
+.header > nav > ul > li {
+  float : none;
+}
+
+.header > nav > ul > li > a {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+/* main styles */
+
+.main {
+  height: 50vh;
+  background: url(../img/background.jpg) center;
+  background-size: cover;
+}
+
+.content {
+  padding: 120px 20px 20px 20px;
+}
+
+.content > h2 {
+  font-size: 24px;
+}
+
+.content > p {
+  font-size: 14px;
+}
+
+.fa-chevron-down {
+  font-size: 26px;
+  padding: 25px 0px 10px 0px;
+}
+
+/* infos styles */
+
+.infos {
+  padding: 40px 20px 40px 20px;
+}
+
+.element {
+  width: 100%;
+  float: none;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* reservation section */
+
+.booking {
+  padding: 40px 20px 40px 20px;
+}
+
+/* where styles */
+
+.where {
+  padding: 80px 20px 0px 20px;
+  min-height: calc(100vh - 190px);
+}
+
+.where-img {
+  float: none;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.where-text {
+  float: none;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 20px 20px 40px 20px;
+  display: block;
+}
+
+/* contact styles */
+
+.contact {
+  padding: 50px 30px 40px 30px;
+  min-height: calc(100vh - 190px);
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.btn-mobile {
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+  display: block;
+}

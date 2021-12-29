@@ -4,7 +4,7 @@ This project was made with my 🧠 in sweat pants.
 
 # url 
 
-this has been deployed on surge for the fun of it, you can find it here: yakp.surge.sh
+this has been deployed on surge for the fun of it, you can find it here: https://yakp.surge.sh
 
 # stack 
 

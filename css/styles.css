@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Ubuntu', sans-serif;
   color: #555;
 }
@@ -29,7 +30,7 @@ p {
   display: inline-block;
   padding: 10px 20px 10px 20px;
   border-radius: 25px;
-  background-color: #E4D5C3;
+  background-color: #e4d5c3;
   color: #333;
   font-weight: 700;
   text-transform: uppercase;
@@ -38,14 +39,14 @@ p {
 }
 
 .btn:hover {
-  background-color: #8B8B55; 
-  color: #E4D5C3;
+  background-color: #8b8b55;
+  color: #e4d5c3;
   transition: ease-in-out 0.2s;
 }
 
 .btn-reverse {
   background-color: #333;
-  color: #E4D5C3;
+  color: #e4d5c3;
 }
 
 .container {
@@ -56,7 +57,7 @@ p {
 
 .underline {
   padding-bottom: 10px;
-  border-bottom: #8B8B55 solid 1px;
+  border-bottom: #8b8b55 solid 1px;
   margin-bottom: 20px;
 }
 
@@ -76,7 +77,7 @@ p {
 .header > nav > h1 > a {
   font-family: Folkard;
   font-size: 32px;
-  color: #E4D5C3;
+  color: #e4d5c3;
 }
 
 .header > nav > ul {
@@ -85,22 +86,22 @@ p {
 }
 
 .header > nav > ul > li {
-  float : left;
+  float: left;
 }
 
 .header > nav > ul > li > a {
   padding: 20px 20px 20px 20px;
-  color: #E4D5C3;
+  color: #e4d5c3;
   display: block;
 }
 
 .header > nav > ul > li > a:hover {
-  background-color: #E4D5C3;
+  background-color: #e4d5c3;
   color: #333;
 }
 
 .active {
-  background-color: #E4D5C3;
+  background-color: #e4d5c3;
   color: #333 !important;
 }
 
@@ -125,19 +126,19 @@ p {
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #8B8B55;
+  text-shadow: 1px 1px 2px #8b8b55;
 }
 
 .content > p {
   color: white;
   font-size: 18px;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 2px #8B8B55;
+  text-shadow: 1px 1px 2px #8b8b55;
 }
 
 .fa-chevron-down {
   font-size: 40px;
-  color: #E4D5C3;
+  color: #e4d5c3;
   margin: auto auto auto auto;
   text-align: center;
   padding: 35px 0px 10px 0px;
@@ -156,7 +157,8 @@ p {
   float: left;
 }
 
-.element > p, i {
+.element > p,
+i {
   padding: 10px 0px 10px 0px;
 }
 
@@ -166,7 +168,7 @@ h3 {
 }
 
 i {
-  color: #8B8B55;
+  color: #8b8b55;
 }
 
 /* reservation section */
@@ -216,7 +218,7 @@ i {
 
 .where-icon {
   padding: 0px 20px 0px 0px;
-  color: #E4D5C3;
+  color: #e4d5c3;
 }
 
 /* contact styles */
@@ -237,7 +239,8 @@ i {
   margin-bottom: 10px;
 }
 
-.contact-form > form > input, textarea {
+.contact-form > form > input,
+textarea {
   display: block;
   width: 100%;
   padding: 15px 20px 15px 20px;
@@ -253,7 +256,16 @@ button {
 
 footer {
   background-color: #333;
-  color: #E4D5C3;
+  color: #e4d5c3;
   padding: 20px 0px 20px 0px;
   text-align: center;
+}
+
+footer > p:nth-last-child(1) {
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+footer > p > a {
+  color: #e4d5c3;
 }
